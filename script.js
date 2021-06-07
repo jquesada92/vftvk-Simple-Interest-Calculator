@@ -8,7 +8,7 @@ function compute() {
     var years = Number(document.getElementById("years").value);
     var interest = principal * years * rate / 100;
     var year = new Date().getFullYear() + parseInt(years);
-    var ParentNode = document.getElementById("maindiv")
+    var ParentNode = document.getElementsByClassName("maindiv")[0]
     if (document.contains(document.getElementById("message"))) {
         document.getElementById("message").remove();
     } else {}
