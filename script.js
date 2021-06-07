@@ -2,6 +2,7 @@ function compute() {
     var principal = Number(document.getElementById("principal").value);
     if (principal <= 0) {
         alert("Enter a positive number");
+        document.getElementById("principal").focus()
     } else {}
     var rate = Number(document.getElementById("rate").value);
     var years = Number(document.getElementById("years").value);
