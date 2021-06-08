@@ -19,7 +19,8 @@ h1 {
     margin: auto
 }
 
-.maindiv>input {
-    padding: 8px;
-    margin: auto
+.InterestForm {
+    padding: 10px;
+    margin: auto;
+    align-items: center
 }

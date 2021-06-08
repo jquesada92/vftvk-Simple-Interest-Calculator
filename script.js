@@ -8,13 +8,11 @@ function compute() {
     var years = Number(document.getElementById("years").value);
     var interest = principal * years * rate / 100;
     var year = new Date().getFullYear() + parseInt(years);
-    var ParentNode = document.getElementsByClassName("maindiv")[0]
+    var ParentNode = document.getElementById("InterestForm")
     if (document.contains(document.getElementById("message"))) {
         document.getElementById("message").remove();
     } else {}
-    var message = document.createElement("p");
-    message.setAttribute("id", "message");
-    message.innerHTML = "If you deposit " + principal + ",at an interest rate of " + rate + "%.<br>You will receive an amount of " + interest + ", in the year " + year;
+    document.getElementById("result").innerHTML = "If you deposit " + principal + ",at an interest rate of " + rate + "%.<br>You will receive an amount of " + interest + ", in the year " + year;
     var submitbtn = document.getElementById("submitbtn"); // Get the <ul> element to insert a new node
     ParentNode.insertBefore(message, submitbtn)
 
