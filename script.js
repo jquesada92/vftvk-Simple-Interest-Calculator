@@ -12,7 +12,7 @@ function compute() {
     if (document.contains(document.getElementById("message"))) {
         document.getElementById("message").remove();
     } else {}
-    document.getElementById("result").innerHTML = "If you deposit " + principal + ",at an interest rate of " + rate + "%.<br>You will receive an amount of " + interest + ", in the year " + year;
+    document.getElementById("result").innerHTML = "If you deposit <mark>" + principal + "</mark>,at an interest rate of <mark>" + rate + "%</mark>.<br>You will receive an amount of <mark>" + interest + "</mark>, in the year <mark>" + year + "</mark>";
     var submitbtn = document.getElementById("submitbtn"); // Get the <ul> element to insert a new node
     ParentNode.insertBefore(message, submitbtn)
 
