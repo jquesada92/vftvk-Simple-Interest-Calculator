@@ -19,11 +19,7 @@ h1 {
     margin: auto
 }
 
-#InterestForm {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border-radius: 25px;
-    margin: auto;
-    align-content: center
+.maindiv>input {
+    padding: 8px;
+    margin: auto
 }
