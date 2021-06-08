@@ -6,7 +6,8 @@ body {
 
 h1 {
     color: grey;
-    font-family: verdana
+    font-family: verdana;
+    text-align: center
 }
 
 .maindiv {
@@ -16,4 +17,13 @@ h1 {
     padding: 20px;
     border-radius: 25px;
     margin: auto
+}
+
+#InterestForm {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    margin: auto;
+    align-content: center
 }
